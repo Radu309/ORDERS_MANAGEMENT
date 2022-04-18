@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="620.0" prefWidth="865.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prezentation.Controller">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Orders" textAlignment="CENTER" wrappingWidth="868.5367984771729">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+      <HBox prefHeight="64.0" prefWidth="931.0">
+         <children>
+            <TextField alignment="CENTER" editable="false" prefHeight="63.0" prefWidth="142.0" text="Order ID" />
+            <ProgressBar prefHeight="63.0" prefWidth="14.0" progress="0.0" />
+            <TextField alignment="CENTER" editable="false" prefHeight="63.0" prefWidth="276.0" text="Client ID" />
+            <ProgressBar prefHeight="63.0" prefWidth="14.0" progress="0.0" />
+            <TextField alignment="CENTER" editable="false" prefHeight="63.0" prefWidth="250.0" text="Product ID" />
+            <ProgressBar prefHeight="63.0" prefWidth="15.0" progress="0.0" />
+            <TextField alignment="CENTER" editable="false" prefHeight="63.0" prefWidth="152.0" text="Number of Products" />
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="18.0" prefWidth="866.0" progress="0.0" />
+      <HBox prefHeight="485.0" prefWidth="869.0">
+         <children>
+            <TextArea fx:id="orderID" editable="false" prefHeight="482.0" prefWidth="142.0" />
+            <ProgressBar prefHeight="525.0" prefWidth="14.0" progress="0.0" />
+            <TextArea fx:id="orderClientID" editable="false" prefHeight="482.0" prefWidth="276.0" />
+            <ProgressBar prefHeight="525.0" prefWidth="14.0" progress="0.0" />
+            <TextArea fx:id="orderProductID" editable="false" prefHeight="482.0" prefWidth="251.0" />
+            <ProgressBar prefHeight="525.0" prefWidth="14.0" progress="0.0" />
+            <TextArea fx:id="orderNumberOfProducts" editable="false" prefHeight="474.0" prefWidth="153.0" />
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="22.0" prefWidth="866.0" progress="0.0" />
+   </children>
+</VBox>

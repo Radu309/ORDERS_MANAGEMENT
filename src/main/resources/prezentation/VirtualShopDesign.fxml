@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prezentation.Controller">
+   <children>
+      <HBox prefHeight="11.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="99.0" prefWidth="347.0">
+         <children>
+            <Button fx:id="showClients" mnemonicParsing="false" onAction="#clickShowClients" prefHeight="100.0" prefWidth="309.0" text="SHOW CLIENTS" />
+            <Button fx:id="showProducts" mnemonicParsing="false" onAction="#clickShowProducts" prefHeight="100.0" prefWidth="303.0" text="SHOW PRODUCTS" />
+         </children>
+      </HBox>
+      <HBox prefHeight="11.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="insertClient" mnemonicParsing="false" onAction="#clickInsertClientWindow" prefHeight="100.0" prefWidth="309.0" text="INSERT CLIENTS" />
+            <Button fx:id="insertProduct" mnemonicParsing="false" onAction="#clickInsertProductWindow" prefHeight="100.0" prefWidth="303.0" text="INSERT PRODUCTS" />
+         </children>
+      </HBox>
+      <HBox prefHeight="11.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="deleteClient" mnemonicParsing="false" onAction="#clickDeleteOneClient" prefHeight="100.0" prefWidth="309.0" text="DELETE CLIENTS" />
+            <Button fx:id="deleteProduct" mnemonicParsing="false" onAction="#clickDeleteOneProduct" prefHeight="100.0" prefWidth="303.0" text="DELETE PRODUCTS" />
+         </children>
+      </HBox>
+      <HBox prefHeight="11.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="editClient" mnemonicParsing="false" onAction="#clickEditClient" prefHeight="100.0" prefWidth="309.0" text="EDIT CLIENTS" />
+            <Button fx:id="editProduct" mnemonicParsing="false" onAction="#clickEditProduct" prefHeight="100.0" prefWidth="303.0" text="EDIT PRODUCTS" />
+         </children>
+      </HBox>
+      <HBox prefHeight="11.0" prefWidth="600.0" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="606.0">
+         <children>
+            <Button fx:id="showOrders" mnemonicParsing="false" onAction="#clickShowOrder" prefHeight="100.0" prefWidth="309.0" text="SHOW ORDERS" />
+            <Button fx:id="insertOrder" mnemonicParsing="false" onAction="#clickInsertOrderWindow" prefHeight="100.0" prefWidth="303.0" text="INSERT ORDERS" />
+         </children>
+      </HBox>
+      <HBox prefHeight="11.0" prefWidth="646.0" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>

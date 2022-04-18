@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prezentation.Controller">
+   <children>
+      <HBox alignment="CENTER" prefHeight="58.0" prefWidth="444.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Edit the client" textAlignment="CENTER" wrappingWidth="357.3366928100586">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="18.0" prefWidth="361.0" progress="0.0" />
+      <HBox prefHeight="25.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Write the ID:         ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="editClientIDTextField" prefHeight="26.0" prefWidth="222.0" />
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="18.0" prefWidth="361.0" progress="0.0" />
+      <HBox prefHeight="25.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Write the name:    ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="editClientNameTextField" prefHeight="26.0" prefWidth="222.0" />
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="18.0" prefWidth="361.0" progress="0.0" />
+      <HBox prefHeight="25.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Write the email:    ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="editClientEmailTextField" prefHeight="26.0" prefWidth="222.0" />
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="18.0" prefWidth="361.0" progress="0.0" />
+      <HBox prefHeight="25.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Write the age:       ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="editClientAgeTextField" prefHeight="26.0" prefWidth="222.0" />
+         </children>
+      </HBox>
+      <ProgressBar prefHeight="18.0" prefWidth="361.0" progress="0.0" />
+      <HBox alignment="CENTER" prefHeight="49.0" prefWidth="316.0">
+         <children>
+            <Button fx:id="editOneClientButton" mnemonicParsing="false" onAction="#clickEditClientButton" prefHeight="31.0" prefWidth="101.0" text="Edit" textAlignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
