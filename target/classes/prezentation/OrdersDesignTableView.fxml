@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prezentation.Controller">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Orders">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <TableView accessibleRole="IMAGE_VIEW" prefHeight="394.0" prefWidth="516.0">
+         <columns>
+            <TableColumn prefWidth="99.20001524686813" text="orderID" />
+            <TableColumn prefWidth="141.5999755859375" text="clientID" />
+            <TableColumn minWidth="0.0" prefWidth="110.40000915527344" text="productID" />
+            <TableColumn minWidth="0.0" prefWidth="148.79998779296875" text="numberOfProducts" />
+         </columns>
+      </TableView>
+   </children>
+</VBox>
